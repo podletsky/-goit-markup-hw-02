@@ -8,6 +8,7 @@
   --color-grey: gba(255, 255, 255, 0.6);
   --color-border-images: rgba(238, 238, 238, 1);
 }
+
 .list {
   list-style: none;
 }
@@ -17,18 +18,22 @@
 /* logo */
 
 .logo-web {
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.38;
-  font-family: "raleway", "sans-serif";
+  font-family: "raleway","sans-serif";
   letter-spacing: 0.03em;
   color: rgba(33, 150, 243, 1);
+  margin-bottom: 25px;
 }
 .logo-studio {
+  font-weight: 700;
   color: rgba(0, 0, 0, 1);
   font-family: "raleway", "sans-serif";
   font-size: 26px;
   letter-spacing: 0.03em;
   line-height: 1.38;
+  margin-bottom: 25px;
 }
 
 .logo:hover {
@@ -36,7 +41,7 @@
 }
 
 /*body*/
-
+  
 body {
   font-weight: 400;
   background-color: var(--aksent-text-other-color);
@@ -44,14 +49,18 @@ body {
   color: var(--main-title-text-color);
 }
 
-/* navigation*/
 
+
+
+
+/* navigation*/
 .link {
   color: var(--main-title-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  margin-bottom: 33px;
 }
 .link:hover {
   color: var(--other-link-color);
@@ -90,9 +99,16 @@ body {
 
 .section-hero-title {
   background-color: var(--primary-background-color);
+ margin-top: 80px;
+  width: 1600px;
+height: 600px;
+
 }
 
+
 .hero-title {
+ text-transform: uppercase;
+  padding: 200,452,280,252;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -131,7 +147,8 @@ body {
 
 /*benefit-title*/
 .benefit-title-main {
-  text-transform: uppercase;
+  margin: 94px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -145,7 +162,9 @@ body {
   color: var(--main-title-text-color);
 }
 .benefit-title {
+  
   font-weight: 700;
+  
   font-size: 14px;
   line-height: 1.14;
 }
@@ -256,3 +275,30 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
+/*start*/
+
+.conteiner{
+   width: 100%;
+max-width: 1200px;
+margin:0 15px auto;
+}
+
+
+
+  
+
+    
+    
+    
+    
+
+
+
+  
+
+
+ ; 
+  
+
+    
